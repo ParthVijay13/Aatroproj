@@ -9,6 +9,9 @@
     "payload": "nodemon server.js",
     "start": "concurrently \"npm run dev\" \"npm run payload\""
   },
+  "engines": {
+  "node": "18.20.2"
+  },
   "dependencies": {
     "@payloadcms/db-mongodb": "^3.25.0",
     "@payloadcms/next": "^3.25.0",
