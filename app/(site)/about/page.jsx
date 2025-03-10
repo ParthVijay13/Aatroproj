@@ -93,11 +93,11 @@ const About = () => {
               <p className="text-lg text-yellow-50 mb-8 max-w-3xl mx-auto">
                 Through my work, I strive to create a positive impact, guiding you on a journey of self-discovery, healing, and growth.
               </p>
-              <Link href="/services">
+              {/* <Link href="/services">
                 <button className="bg-white text-yellow-700 hover:bg-yellow-100 border-none shadow-lg px-6 py-3">
                   Explore My Services
                 </button>
-              </Link>
+              </Link> */}
             </div>
           </div>
         </section>
