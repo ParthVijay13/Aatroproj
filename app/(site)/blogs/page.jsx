@@ -105,10 +105,9 @@ export default async function BlogsPage({ searchParams }) {
   const limit = 3; // Blogs per page
   const { posts, totalDocs, totalPages } = await getBlogs(page, limit);
 
-
   if (!posts || posts.length === 0) {
     return (
-      <div className="container mx-auto py-10 text-center">
+      <div className="container mx-auto py-10 text-center min-h-[calc(100vh-300px)]">
         <h1 className="text-3xl font-bold mb-6">Our Astrology Blogs</h1>
         <p className="text-lg">No blog posts found. Check back soon for new content!</p>
       </div>
@@ -120,7 +119,7 @@ export default async function BlogsPage({ searchParams }) {
     <Head>
         <title>Ravindra Purohit | blogs</title>
       </Head>
-    <div className="container mx-auto py-10 px-4">
+    <div className="container mx-auto py-10 px-4 min-h-[calc(100vh-300px)]">
       <h1 className="text-3xl font-bold mb-6">Our Astrology Blogs</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {posts.map((blog) => (
@@ -161,4 +160,3 @@ export default async function BlogsPage({ searchParams }) {
     </>
   );
 }
-
