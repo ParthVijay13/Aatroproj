@@ -5,8 +5,9 @@ import Link from 'next/link';
 import { useState } from 'react';
 import axios from 'axios';
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaWhatsapp, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
-
+const PAYLOAD_CMS_URL = process.env.NEXT_PUBLIC_PAYLOAD_API_URL;
 const Contact = () => {
+  
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -33,7 +34,7 @@ const Contact = () => {
 
     try {
       // Send data to the Payload CMS API
-      const response = await axios.post('http://localhost:3000/api/contacts-data', formData, {
+      const response = await axios.post(`${PAYLOAD_CMS_URL}/contacts-data`, formData, {
         headers: {
           'Content-Type': 'application/json',
         },

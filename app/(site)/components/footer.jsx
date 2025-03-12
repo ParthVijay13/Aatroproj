@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { Toaster, toast } from 'react-hot-toast';
 import PrivacyPolicyModal from './PrivacyPolicyModal';
 import TermsOfServiceModal from './TermsOfServiceModal';
-const PAYLOAD_API_URL = process.env.NEXT_PUBLIC_PAYLOAD_API_URL || 'http://localhost:3000/api';
+const PAYLOAD_API_URL = process.env.NEXT_PUBLIC_PAYLOAD_API_URL;
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();

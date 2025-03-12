@@ -161,7 +161,7 @@ export default async function BlogDetailPage({ params }) {
   }
 
   return (
-    <div className="container mx-auto py-10 px-4">
+    <div className="container mx-auto py-10 px-4 min-h-[calc(100vh-300px)]">
       <article className="max-w-3xl mx-auto">
         <HeroImage image={blog.heroImage} title={blog.title} />
         <h1 className="text-4xl font-bold mb-4">{blog.title}</h1>
@@ -186,7 +186,6 @@ export default async function BlogDetailPage({ params }) {
     </div>
   );
 }
-
 export async function generateMetadata({ params }) {
   const { slug } = params;
   const blog = await getBlog(slug);

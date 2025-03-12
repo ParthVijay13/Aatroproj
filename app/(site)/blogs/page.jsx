@@ -5,8 +5,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Head from 'next/head';
 // Define the API and base URLs
-const PAYLOAD_CMS_URL = process.env.NEXT_PUBLIC_PAYLOAD_API_URL || 'http://localhost:3000/api';
-const PAYLOAD_BASE_URL = process.env.NEXT_PUBLIC_PAYLOAD_BASE_URL || 'http://localhost:3000';
+const PAYLOAD_CMS_URL = process.env.NEXT_PUBLIC_PAYLOAD_API_URL;
+const PAYLOAD_BASE_URL = process.env.NEXT_PUBLIC_PAYLOAD_BASE_URL;
 
 // getBlogs function (updated above)
 async function getBlogs(page = 1, limit = 3) {
@@ -102,7 +102,7 @@ const BlogCard = ({ blog }) => (
 // Main BlogsPage with Pagination
 export default async function BlogsPage({ searchParams }) {
   const page = parseInt(searchParams?.page) || 1; // Get page from URL query (?page=)
-  const limit = 3; // Blogs per page
+  const limit = 12; // Blogs per page
   const { posts, totalDocs, totalPages } = await getBlogs(page, limit);
 
   if (!posts || posts.length === 0) {
