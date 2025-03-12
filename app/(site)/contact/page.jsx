@@ -277,11 +277,11 @@ const Contact = () => {
               <ul className="space-y-2 text-gray-700">
                 <li className="flex justify-between">
                   <span>Monday - Friday:</span>
-                  <span className="font-medium">9:00 AM - 6:00 PM</span>
+                  <span className="font-medium">8:00 AM - 9:00 AM  &  4:00 PM- 7:00 PM</span> 
                 </li>
                 <li className="flex justify-between">
-                  <span>Saturday:</span>
-                  <span className="font-medium">10:00 AM - 4:00 PM</span>
+                  <span>Saturday and Sunday:</span>
+                  <span className="font-medium">10:00 AM - 2:00 PM</span>
                 </li>
                 <li className="flex justify-between">
                   <span>Sunday:</span>
@@ -298,11 +298,11 @@ const Contact = () => {
                 </span>
                 Our Location
               </h2>
-              <p className="text-gray-700 mb-4">123 Spiritual Avenue, Harmony District, Mumbai, India</p>
+              <p className="text-gray-700 mb-4"> A18, Van Vihar Colony, Tonk Road, Jaipur, Rajasthan, India 302018</p>
 
               <div className="w-full h-48 rounded-lg overflow-hidden shadow-md">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.11609823277!2d72.74110193988417!3d19.08219783958221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra%2C%20India!5e0!3m2!1sen!2sus!4v1614143483933!5m2!1sen!2sus"
+                  src="https://maps.app.goo.gl/op3sMDskLv4xmkBz9"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
