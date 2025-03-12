@@ -142,7 +142,7 @@ const TermsOfServiceModal = ({ isOpen, onClose }) => {
                 For questions or concerns regarding these Terms of Service, please contact us at:
               </p>
               <p className="mt-2">
-                <strong>Email:</strong> ravindrapurohit@gmail.com<br />
+                <strong>Email:</strong>ravindra.purohit@ymail.com<br />
                 <strong>Website:</strong> www.ravindrapurohit.com
               </p>
             </section>

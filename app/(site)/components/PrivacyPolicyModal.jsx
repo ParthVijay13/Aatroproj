@@ -63,7 +63,7 @@ const PrivacyPolicyModal = ({ isOpen, onClose }) => {
           
           <div className="space-y-6 text-gray-700">
             <p>
-              Welcome to <strong>www.ravindrapurohit.com</strong> ("Website"). Your privacy is important to us, and we are committed to protecting the personal information you share with us. This Privacy Policy outlines how we collect, use, and safeguard your information when you visit our Website and interact with our services, including blogs, astrological insights, emotional well-being techniques, and professional advice.
+              Welcome to <strong>www.ravindrapurohit.com</strong>Your privacy is important to us, and we are committed to protecting the personal information you share with us. This Privacy Policy outlines how we collect, use, and safeguard your information when you visit our Website and interact with our services, including blogs, astrological insights, emotional well-being techniques, and professional advice.
             </p>
 
             <section>
@@ -145,7 +145,7 @@ const PrivacyPolicyModal = ({ isOpen, onClose }) => {
               <h2 className="text-xl font-semibold text-indigo-800 mb-3">9. Contact Us</h2>
               <p>If you have any questions or concerns about this Privacy Policy, you can contact us at:</p>
               <p className="mt-2">
-                <strong>Email:</strong> ravindrapurohit@gmail.com<br />
+                <strong>Email:</strong>ravindra.purohit@ymail.com<br />
                 <strong>Website:</strong> www.ravindrapurohit.com
               </p>
             </section>

@@ -4,7 +4,7 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import axios from 'axios';
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaWhatsapp, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
+import { FaWhatsapp, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 const PAYLOAD_CMS_URL = process.env.NEXT_PUBLIC_PAYLOAD_API_URL;
 const Contact = () => {
   
@@ -209,8 +209,8 @@ const Contact = () => {
               <div className="space-y-4">
                 <p className="flex items-center text-gray-700">
                   <FaEnvelope className="mr-3 text-indigo-500" />
-                  <a href="mailto:contact@ravindrapurohit.com" className="hover:text-indigo-600 transition">
-                    contact@ravindrapurohit.com
+                  <a href="mailto:Ravindra.purohit@ymail.com" className="hover:text-indigo-600 transition">
+                  ravindra.purohit@ymail.com
                   </a>
                 </p>
                 
@@ -222,7 +222,7 @@ const Contact = () => {
                     rel="noopener noreferrer"
                     className="hover:text-indigo-600 transition"
                   >
-                    +1 234 567 890
+                    +91 9636030999
                   </Link>
                 </p>
               </div>
@@ -302,7 +302,7 @@ const Contact = () => {
 
               <div className="w-full h-48 rounded-lg overflow-hidden shadow-md">
                 <iframe
-                  src="https://maps.app.goo.gl/op3sMDskLv4xmkBz9"
+                  src="https://www.google.com/maps/@26.8692866,75.7897031,3a,90y,287.96h,87.49t/data=!3m7!1e1!3m5!1s0OGzMMjKmwCESAwzqdCkGQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D2.5068493150684787%26panoid%3D0OGzMMjKmwCESAwzqdCkGQ%26yaw%3D287.96215753424656!7i13312!8i6656?entry=ttu&g_ep=EgoyMDI1MDMwOC4wIKXMDSoJLDEwMjExNDUzSAFQAw%3D%3D"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
