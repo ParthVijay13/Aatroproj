@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const MainBanner = () => {
   return (
-    <section className="relative min-h-screen overflow-hidden">
+    <section className="relative min-h-[90vh] overflow-hidden">
       {/* Base gradient background */}
       <div className="absolute inset-0 bg-gradient-to-br from-amber-50 via-amber-100 to-amber-200"></div>
       
@@ -63,12 +63,6 @@ const MainBanner = () => {
               </svg>
             </Link>
             
-            {/* <Link
-              href="/contact"
-              className="px-8 py-4 bg-white bg-opacity-30 backdrop-blur-sm border border-amber-300 text-amber-800 rounded-full font-medium shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
-            >
-              Schedule Consultation
-            </Link> */}
           </div>
           
           {/* Decorative Om symbol */}

@@ -302,7 +302,7 @@ const Contact = () => {
 
               <div className="w-full h-48 rounded-lg overflow-hidden shadow-md">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.2225993321367!2d75.84796220000001!3d26.8328714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db7e67f05a6d7%3A0x7815ad365d6b022f!2sA18!5e0!3m2!1sen!2sin!4v1741860591422!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.0731160240516!2d75.78926299999999!3d26.869418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db500617f147b%3A0xd769593ee1440bf4!2sRavindra%20Purohit!5e0!3m2!1sen!2sin!4v1741861520370!5m2!1sen!2sin"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
