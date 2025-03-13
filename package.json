@@ -10,11 +10,12 @@
     "start": "concurrently \"npm run dev\" \"npm run payload\""
   },
   "engines": {
-  "node": "18.20.2"
+    "node": "18.20.2"
   },
   "dependencies": {
     "@payloadcms/db-mongodb": "^3.25.0",
     "@payloadcms/next": "^3.25.0",
+    "@payloadcms/richtext-slate": "^3.25.0",
     "axios": "^1.8.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",

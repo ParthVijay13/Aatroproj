@@ -4,9 +4,9 @@ import { notFound } from 'next/navigation';
 import Image from 'next/image';
 
 // Define the API URL for fetching data
-const PAYLOAD_CMS_URL = process.env.NEXT_PUBLIC_PAYLOAD_API_URL || 'http://localhost:3000/api';
+const PAYLOAD_CMS_URL = process.env.NEXT_PUBLIC_PAYLOAD_API_URL;
 // Define the base URL for media files (remove the /api suffix)
-const PAYLOAD_BASE_URL = process.env.NEXT_PUBLIC_PAYLOAD_BASE_URL || 'http://localhost:3000';
+const PAYLOAD_BASE_URL = process.env.NEXT_PUBLIC_PAYLOAD_BASE_URL;
 
 async function getBlog(slug) {
   try {
@@ -200,12 +200,16 @@ export async function generateMetadata({ params }) {
   };
 }
 
-// export async function generateMetadata({ params }) {
-//   const { slug } = params;
+export async function generateMetadata({ params }) {
+  const { slug } = params;
 
-//   // Optionally fetch the blog post to get the actual title
-//   // For now, we'll use the slug directly
-//   return {
-//     title: `Blog - ${slug}`, // Custom format without using the root template
-//   };
-// }
+  // Optionally fetch the blog post to get the actual title
+  // For now, we'll use the slug directly
+  return {
+    title: `Blog - ${slug}`, // Custom format without using the root template
+  };
+}
+
+
+
+
