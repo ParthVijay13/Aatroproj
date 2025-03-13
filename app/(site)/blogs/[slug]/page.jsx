@@ -200,16 +200,6 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export async function generateMetadata({ params }) {
-  const { slug } = params;
-
-  // Optionally fetch the blog post to get the actual title
-  // For now, we'll use the slug directly
-  return {
-    title: `Blog - ${slug}`, // Custom format without using the root template
-  };
-}
-
 
 
 
