@@ -14,7 +14,7 @@ const nextConfig = {
       return config;
     },
     images: {
-      domains: ['localhost'],
+      domains: ['ravindrapurohit.com','admin.ravindrapurohit.com'],
     },
 };
 
