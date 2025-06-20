@@ -39,7 +39,7 @@ const MainBanner = () => {
           </div>
           
           <h1 className="mb-6 text-4xl md:text-5xl lg:text-6xl font-bold text-amber-900 leading-tight">
-            Transform Your Life with Personalized Guidance and Ancient Wisdom
+            Transform Your Life with <span><b>Personalized Guidance and Ancient Wisdom</b></span>
           </h1>
           
           <p className="mb-10 text-lg md:text-xl text-amber-800 max-w-2xl mx-auto">

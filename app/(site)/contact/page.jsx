@@ -222,7 +222,7 @@ const Contact = () => {
                     rel="noopener noreferrer"
                     className="hover:text-indigo-600 transition"
                   >
-                    +91 9636030999
+                    +91 9636030999 <span></span>(Whatsapp only)
                   </Link>
                 </p>
               </div>
@@ -276,17 +276,17 @@ const Contact = () => {
               </h2>
               <ul className="space-y-2 text-gray-700">
                 <li className="flex justify-between">
-                  <span>Monday - Friday:</span>
-                  <span className="font-medium">8:00 AM - 9:00 AM</span> 
+                  <span>Monday - Sunday:</span>
+                  <span className="font-medium">Prior Appointment</span> 
                 </li>
-                <li className="flex justify-between">
+                {/* <li className="flex justify-between">
                   <span></span>
                   <span className="font-medium">4:00 PM- 7:00 PM</span>
                 </li>
                 <li className="flex justify-between">
                   <span>Saturday and Sunday:</span>
                   <span className="font-medium">10:00 AM - 2:00 PM</span>
-                </li>
+                </li> */}
               </ul>
             </div>
 

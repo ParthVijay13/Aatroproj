@@ -35,7 +35,7 @@ export default function IntroductionSection({
                 priority
                 className="object-cover"
                 style={{
-                  objectPosition: 'center center',
+                  objectPosition: 'center top',
                 }}
               />
             </div>

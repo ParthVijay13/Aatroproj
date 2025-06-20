@@ -63,9 +63,10 @@ const Navbar = () => {
         <div className="flex items-center">
           <Link href="/" className="text-xl font-bold text-gray-800">
             Ravindra Purohit
-            <span className="block text-sm font-light text-gray-500">
+            <h2 className="text-sm font-bold text-gray-800">
               Guidance, Growth, and Wisdom
-            </span>
+            </h2>
+
           </Link>
         </div>
 

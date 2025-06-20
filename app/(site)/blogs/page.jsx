@@ -278,7 +278,7 @@ export default async function BlogsPage({ searchParams }) {
   if (!posts || posts.length === 0) {
     return (
       <div className="container mx-auto py-10 text-center min-h-[calc(100vh-300px)]">
-        <h1 className="text-3xl font-bold mb-6">Our Astrology Blogs</h1>
+        <h1 className="text-3xl font-bold mb-6">My blogs</h1>
         <p className="text-lg">No blog posts found. Check back soon for new content!</p>
       </div>
     );
