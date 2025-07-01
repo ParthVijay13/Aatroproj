@@ -291,7 +291,7 @@ const Contact = () => {
             </div>
 
             {/* Location */}
-            <div className="bg-white rounded-xl shadow-lg p-6 backdrop-blur-sm bg-opacity-80">
+            {/* <div className="bg-white rounded-xl shadow-lg p-6 backdrop-blur-sm bg-opacity-80">
               <h2 className="text-xl font-bold mb-4 text-indigo-900 flex items-center">
                 <span className="bg-indigo-100 p-2 rounded-full mr-3 text-indigo-600">
                   <FaMapMarkerAlt className="w-5 h-5" />
@@ -311,7 +311,7 @@ const Contact = () => {
                   title="Location Map"
                 ></iframe>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
